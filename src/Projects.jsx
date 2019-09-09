@@ -6,7 +6,7 @@ const Projects = () => {
       <p className="header">Hi! I'm Christian Watson</p>
 
       <p className="project-description">
-        I'm a Software Engineer currently living in the San Francisco Bay Area.
+        I'm a Software Engineer currently living in the San Francisco Bay Area. I enjoy coding on the backend in Python or JavaScript and enjoy learning new technologies.
       </p>
 
       <div className="project">

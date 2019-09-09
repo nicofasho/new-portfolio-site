@@ -1,5 +1,5 @@
 import React from "react";
-import { Route } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -23,7 +23,7 @@ const Footer = () => {
           </li>
 
           <li>
-            <a href="https://www.linkedin.com/in/christian-watson-12875466/">
+            <a href="https://www.linkedin.com/in/christian-watson-/">
               LinkedIn
             </a>
           </li>

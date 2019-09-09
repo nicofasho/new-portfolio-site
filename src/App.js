@@ -3,7 +3,7 @@ import "./App.css";
 import { Route, Switch } from "react-router-dom";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
-import Projects from "./Projects";
+import Portfolio from "./Portfolio";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           <Route
             exact
             path="/"
-            render={({ history }) => <Projects {...history} />}
+            render={({ history }) => <Portfolio {...history} />}
           />
         </Switch>
 
