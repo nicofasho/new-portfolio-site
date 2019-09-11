@@ -1,26 +1,25 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const GameJournalPreview = () => {
   return (
     <div className="project">
-      <Link to="/matchy">
+      <Link to="/gamejournal">
         <img
-          src="./images/LOSCoverImage.png"
-          alt="Little Orchestra Society Website Wireframes"
-          className="project-image img-fluid"
+          src="./newimages/GameJournalCoverImage.png"
+          alt="Game Journal - MEN Stack"
+          className="project-image img-fluid d-block mx-auto"
         />
       </Link>
 
-      <Link to="/matchy">
-        <h2 className="project-title">
-          Little Orchestra Society Website Wireframes
-        </h2>
+      <Link to="/gamejournal">
+        <h2 className="project-title">Game Journal - MEN Stack</h2>
       </Link>
 
       <p className="project-description">
-        This project was a set of wireframes for the Little Orchestra Society's
-        new website. LOS is a charitable organization in New York City, NY.
+        Game Journal was a solo project completed as part of my General Assembly
+        Bootcamp. Game Journal is a place where gamers can write about their
+        experiences with their favorite games.
       </p>
 
       <hr />

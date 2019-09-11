@@ -1,26 +1,25 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const RootPreview = () => {
   return (
     <div className="project">
-      <Link to="/matchy">
+      <Link to="/root">
         <img
-          src="./images/LOSCoverImage.png"
-          alt="Little Orchestra Society Website Wireframes"
-          className="project-image img-fluid"
+          src="./newimages/RootRideshareCoverImage.png"
+          alt="Root Rideshare - Django"
+          className="project-image img-fluid d-block mx-auto"
         />
       </Link>
 
-      <Link to="/matchy">
-        <h2 className="project-title">
-          Little Orchestra Society Website Wireframes
-        </h2>
+      <Link to="/root">
+        <h2 className="project-title">Root Rideshare - Django</h2>
       </Link>
 
       <p className="project-description">
-        This project was a set of wireframes for the Little Orchestra Society's
-        new website. LOS is a charitable organization in New York City, NY.
+        Root was a group project completed as part of my General Assembly
+        Bootcamp. I worked primarily on the database models and application
+        logic.
       </p>
 
       <hr />

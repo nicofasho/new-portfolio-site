@@ -4,23 +4,22 @@ import { Link } from "react-router-dom";
 const MinePreview = () => {
   return (
     <div className="project">
-      <Link to="/matchy">
+      <Link to="/minesweeper">
         <img
-          src="./images/LOSCoverImage.png"
-          alt="Little Orchestra Society Website Wireframes"
-          className="project-image img-fluid"
+          src="./newimages/MineCoverImage.png"
+          alt="Avoid the Spoilers 2019 Edition - Frontend JavaScript"
+          className="project-image img-fluid d-block mx-auto"
         />
       </Link>
 
-      <Link to="/matchy">
+      <Link to="/minesweeper">
         <h2 className="project-title">
-          Little Orchestra Society Website Wireframes
+          Avoid the Spoilers 2019 Edition - Frontend JavaScript
         </h2>
       </Link>
 
       <p className="project-description">
-        This project was a set of wireframes for the Little Orchestra Society's
-        new website. LOS is a charitable organization in New York City, NY.
+        Avoid the Spoilers is a Minesweeper clone with a twist.
       </p>
     </div>
   );

@@ -1,11 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import MatchyPreview from "./MatchyPreview";
 import RootPreview from './RootPreview';
 import GameJournalPreview from './GameJournalPreview';
 import MinePreview from './MinePreview';
 
-const Projects = () => {
+const Projects = (props) => {
   return (
     <div>
       <p className="header">Hi! I'm Christian Watson</p>
@@ -16,10 +15,10 @@ const Projects = () => {
         technologies. Here are some of my most recent projects, enjoy!
       </p>
 
-      <MatchyPreview />
-      <RootPreview />
-      <GameJournalPreview />
-      <MinePreview />
+      <MatchyPreview history={props} />
+      <RootPreview  history={props} />
+      <GameJournalPreview history={props} />
+      <MinePreview history={props} />
       
     </div>
   );
