@@ -1,4 +1,5 @@
 import React from "react";
+import JobboPreview from "./JobboPreview";
 import MatchyPreview from "./MatchyPreview";
 import RootPreview from './RootPreview';
 import GameJournalPreview from './GameJournalPreview';
@@ -15,6 +16,7 @@ const Projects = (props) => {
         technologies. Here are some of my most recent projects, enjoy!
       </p>
 
+      <JobboPreview history={props} />
       <MatchyPreview history={props} />
       <RootPreview  history={props} />
       <GameJournalPreview history={props} />

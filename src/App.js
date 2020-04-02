@@ -4,6 +4,7 @@ import { Route, Switch } from "react-router-dom";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 import Portfolio from "./Portfolio";
+import Jobbo from "./Jobbo";
 import Matchy from "./Matchy";
 import Root from "./Root";
 import GameJournal from "./GameJournal";
@@ -22,6 +23,11 @@ function App() {
             exact
             path="/"
             render={({ history }) => <Portfolio {...history} />}
+          />
+          <Route
+            exact
+            path="/jobbo"
+            render={({ history }) => <Jobbo {...history} />}
           />
           <Route
             exact
